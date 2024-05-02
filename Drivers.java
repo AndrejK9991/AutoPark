@@ -1,4 +1,4 @@
-public class Drivers {
+public class Drivers extends Human {
     private String fio;
     private int age;
     private int drivingExperience;

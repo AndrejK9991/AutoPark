@@ -1,9 +1,9 @@
 public enum Color {
-    YELLOW("yellow"),
+    YELLOW(),
 
-    BLUE("blue"),
+    BLUE(),
 
-    BLACK("black");
+    BLACK();
 
     private String str;
 

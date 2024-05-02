@@ -1,4 +1,4 @@
-public class People extends Drivers {
+public class Human {
     private int height;
 
     public void setHeight(int height) {

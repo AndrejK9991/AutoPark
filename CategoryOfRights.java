@@ -1,9 +1,9 @@
 public enum CategoryOfRights {
-    A("A"),
+    A(),
 
-    B("B"),
+    B(),
 
-    C("C");
+    C();
 
     private String str;
 

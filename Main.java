@@ -23,21 +23,20 @@ public class Main {
         auto2.setLoadCapacity(1820);
 
 //        human1
-        Man human1 = new Man();
+        Drivers human1 = new Drivers();
         human1.setFio("Артур Конан Дойл");
         human1.setAge(45);
         human1.setDrivingExperience(18);
         human1.setCategoryOfRights(CategoryOfRights.A);
-        human1.setFootSize(42);
-//        human1.setHeight(172);
+        human1.setHeight(172);
 
 //        human2
-        Woman human2 = new Woman();
+        Drivers human2 = new Drivers();
         human2.setFio("Усунина Фаина Попаева");
         human2.setAge(28);
         human2.setDrivingExperience(8);
         human2.setCategoryOfRights(CategoryOfRights.C);
-        human2.setBustSize(3);
+        human2.setHeight(156);
 
         autoPark[0] = auto1;
         autoPark[1] = auto2;
